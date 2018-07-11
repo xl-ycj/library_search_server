@@ -39,12 +39,8 @@ package main
 //		log.Fatalln("json unmarshal error: ", err.Error())
 //	}
 //
-//	connString := fmt.Sprintf("%s/%s@%s:%s/%s",
-//		"system", "NetLab624", "114.212.80.13", "1521", "netlab")
-//
 //	fmt.Println(connString)
-//	db, err := sql.Open("oci8", "system/NetLab624@114.212.80.13:1521/netlab.624")
-//	//db.SetMaxOpenConns(1000)
+//	//  db.SetMaxOpenConns(1000)
 //	if err != nil {
 //		fmt.Println("ERR: ", err.Error())
 //	}else {
