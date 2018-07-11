@@ -1,9 +1,9 @@
 
 {
-    "Server": "114.212.80.13",
-    "Port": "1521",
-    "User": "system",
-    "Password": "NetLab624",
-    "ServiceName": "netlab.624",
+    "Server": "your IP address",
+    "Port": "your port",
+    "User": "your user name",
+    "Password": "your password",
+    "ServiceName": "your service name",
     "Engine": "oci8"
 }
